@@ -14,20 +14,12 @@ export default function Nav() {
             justifyContent: 'flex-start',
           }}
         >
-          <div style={linkStyle}>
-            <a href="#">About</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">Portfolio</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">Resume</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">Contact</a>
-          </div>
+            <Link>About Me</Link>
+            <Link>Portfolio</Link>
+            <Link>Resume</Link>
+            <Link>Contact</Link>
+         
         </section>
       </nav>
     );
   }
-  
